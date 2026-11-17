@@ -1492,11 +1492,17 @@ MOBILE RESPONSIVENESS ↓
     .start__container {
         padding: 80px 0;
     }
-        .start__title {
+    .start__title {
         font-size: 24px;
     }
     .start__buttons {
         flex-direction: column;
+    }
+    .start__button:nth-child(1) {
+        margin-right: 0;
+    }
+        .start__button:nth-child(2) {
+        margin-top: 16px;
     }
     .footer__columns {
         justify-content: center;
