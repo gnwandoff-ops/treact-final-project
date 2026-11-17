@@ -1415,9 +1415,16 @@ MOBILE RESPONSIVENESS ↓
     .footer__columns {
         justify-content: flex-start;
     }
+    .footer__column {
+        width: calc(100% / 3);
+    }
     .footer__bottom {
         flex-direction: column;
         align-items: center;
+    }
+    .footer__copyright, 
+    .footer__socials {
+        margin-top: 32px;
     }
 }
 
@@ -1436,6 +1443,19 @@ MOBILE RESPONSIVENESS ↓
     .header__customers--title {
         font-size: 14px;
         letter-spacing: 0.05em;
+    }
+    .header__email--input {
+        position: static;
+        padding: 16px 0;
+        padding-left: 32px;
+        line-height: 1.5;
+    }
+    .header__email--btn {
+        width: 100%;
+        padding: 16px 0;
+        margin: 16px 0;
+        margin-bottom: 0px;
+        line-height: 1.5;
     }
     main {
         margin-bottom: 80px;
@@ -1480,5 +1500,16 @@ MOBILE RESPONSIVENESS ↓
     }
     .footer__columns {
         justify-content: center;
+    }
+    .footer__column {
+        width: auto;
+        padding: 0 16px;
+        text-align: center;
+        align-items: center;
+    }
+    .footer__copyright {
+        font-size: 14px;
+        text-align: center;
+        line-height: 1.5;
     }
 }
