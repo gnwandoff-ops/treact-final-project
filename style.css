@@ -1501,7 +1501,7 @@ MOBILE RESPONSIVENESS ↓
     .start__button:nth-child(1) {
         margin-right: 0;
     }
-        .start__button:nth-child(2) {
+    .start__button:nth-child(2) {
         margin-top: 16px;
     }
     .footer__columns {
